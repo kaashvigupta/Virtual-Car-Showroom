@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Page</title>
+</head>
+<body>
+  <h1>Payment Page</h1>
+  <form>
+    <label for="cardType">Card Type:</label>
+    <select id="cardType" name="cardType">
+      <option value="visa">Visa</option>
+      <option value="mastercard">MasterCard</option>
+      <option value="amex">American Express</option>
+    </select><br><br>
+
+    <label for="cardExpiry">Card Expiry Date:</label>
+    <input type="text" id="cardExpiry" name="cardExpiry" required><br><br>
+
+    <label for="cvv">CVV:</label>
+    <input type="text" id="cvv" name="cvv" required><br><br>
+
+    <label for="rentAmount">Rent Amount:</label>
+    <input type="text" id="rentAmount" name="rentAmount" required><br><br>
+  
+    <input type="submit" value="Pay">
+  </form>
+</body>
+</html>
