@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <!--box-->
+    <a-box 
+
+           src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/bricks/brick_diffuse.jpg"
+                                                                                                      
+           height="80"
+           width="75"
+           depth=".5"
+        position="62 0 -80"
+>   </a-box>
+    <a-box 
+
+           src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/bricks/brick_diffuse.jpg"
+                                                                                                      
+           height="80"
+           width="75"
+           depth=".5"
+        position="-62 0 -80"
+>   </a-box>
+    <a-box src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/bricks/brick_diffuse.jpg"
+           height="80"
+           width=".5"
+           depth="200"
+           position="100 0 20">
+    </a-box >
+    <a-box src=https://c0.wallpaperflare.com/preview/443/428/13/window-frosted-glass-glass-pane.jpg
+           height="80"
+           width="200"
+           depth=".5"
+           position="0 0 120">
+    </a-box>
+    <a-box src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/bricks/brick_diffuse.jpg"
+           height="80"
+           width=".5"
+           depth="200"
+           position="-100 0 20"
+
+           >
+    </a-box>
+    <!--roof-->
+                                
+                                <a-box color="#FFEAD8"
+                                       src=https://c0.wallpaperflare.com/preview/443/428/13/window-frosted-glass-glass-pane.jpg
+                                       
+           height=".5"
+           width="200"
+           depth="200"
+           position="0 35 20">
+    </a-box>
+     <a-box color="brown"
+            src=https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/reflection/metal.jpg
+           height=".5"
+           width="200"
+           depth="200"
+           position="0 -25 20">
+    </a-box>
+    <a-cylinder src=https://static.vecteezy.com/system/resources/previews/019/927/521/original/wood-texture-background-free-photo.jpg
+                color=grey
+                height=10
+                radius=15
+                position="-40 -20 20"
+>   </a-cylinder>
+    <a-cylinder src=https://static.vecteezy.com/system/resources/previews/019/927/521/original/wood-texture-background-free-photo.jpg
+                color=grey
+                height=10
+                radius=15
+                position="40 -20 20"></a-cylinder>
+    <a-box color="#84F2FF"
+           height=.5
+           width=200
+           position="0 34 -79"
+>   </a-box>
+    <a-box color="#84F2FF"
+           height=.5
+           width=200
+           position="0 34 119"
+>   </a-box>
+    <a-box color="#84F2FF"
+           height=.5
+           depth=200
+           position="98 34 20"
+>   </a-box>
+    <a-box color="#84F2FF"
+           height=.5
+           depth=200
+           position="-99 34 20"
+>   </a-box>a
+    </a-scene>
+</body>
+</html>
